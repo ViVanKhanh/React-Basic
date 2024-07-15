@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.scss';
 import Test from './Test/Test';
+import ListToDo from './ToDos/ListToDo';
+
+
+
 
 /**
  * 2 components: class component và function components( functicn và arrow function)
@@ -15,11 +19,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          hello world with reactghh
+          hello To Do Simple App with react
         </p>
-        
-        <Test />
+
+        {/* <Test /> */}
+        <ListToDo />
       </header>
+   
+
     </div>
   );
 }
